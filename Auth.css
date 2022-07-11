@@ -1,10 +1,12 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 body {
-  font-family: 'Roboto Slab', serif;
-  background-image: linear-gradient(#0B0C10, #1F2833, rgb(174, 175, 177));
+  background: #e35869;
+  font-family: 'Rubik', sans-serif;  background-image: linear-gradient(#d8d8d8, #2d3b55, rgb(112, 145, 189));
   background-attachment:fixed;
   height: 100%;
 }
@@ -12,8 +14,8 @@ body {
 .header {
   width: 30%;
   margin: 50px auto 0px;
-  color: white;
-  background: #66FCF1;
+  color: grey;
+  background: #3c4d6d;
   text-align: center;
   border: 1px solid #B0C4DE;
   border-bottom: none;
@@ -48,7 +50,7 @@ form, .content {
   padding: 10px;
   font-size: 15px;
   color: white;
-  background: #66FCF1;
+  background: #3c4d6d;
   border: none;
   border-radius: 5px;
 }
